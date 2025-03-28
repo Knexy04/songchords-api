@@ -10,7 +10,7 @@ export const getAllAuthors = async (req: Request, res: Response) => {
     console.error('Ошибка при получении авторов:', error);
     res.status(500).json({ message: 'Ошибка сервера при получении авторов' });
   }
-};
+}; 
 
 // Получить автора по ID
 export const getAuthorById = async (req: Request, res: Response) => {
